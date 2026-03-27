@@ -1,1 +1,72 @@
-{}
+{
+    "common": {
+        "appName": "FluxerЛист",
+        "tagline": "Лучшее место что бы искать и развивать Fluxer коммьюнити. Находи людей, строй свой мир.",
+        "login": "Логин",
+        "logout": "Выйти",
+        "dashboard": "Панель управления",
+        "adminPanel": "Админ Панель",
+        "browseServers": "Смотреть сервера",
+        "addListing": "Добавь листниг",
+        "addServer": "Добавить сервер",
+        "leaderboard": "Лидерборд",
+        "sponsors": "Спонсоры",
+        "backToFluxerList": "Назад, во FluxerЛист",
+        "joinFluxerServer": "Заходи в наш Fluxer Сервер",
+        "joinCommunity": "Заходи в наше коммьюнити",
+        "viewAll": "Смотреть все",
+        "viewAllServers": "Смотреть все сервера",
+        "viewAllThemes": "Смотреть все темы",
+        "viewAllBots": "Смотреть всех ботов",
+        "readGuide": "Читать гайд",
+        "tryAgain": "Попробуйте снова",
+        "goHome": "Назад домой",
+        "save": "Сохранить",
+        "cancel": "Отменить",
+        "delete": "Удалить",
+        "edit": "Отредактировать",
+        "submit": "Выложить",
+        "loading": "Загрузка...",
+        "newBadge": "НОВОЕ",
+        "partnerBadge": "Партнер",
+        "verifiedBadge": "Верифицированный",
+        "officialBadge": "Оффициальный",
+        "members": "участников",
+        "votes": "голосов",
+        "version": "Версия Бета 0.1.7 - Билд Номер 8",
+        "copyright": "© {year} FluxerЛист. Все права защищенные.",
+        "notAffiliated": "Не связан с Fluxer, Inc."
+    },
+    "navbar": {
+        "home": "Домой",
+        "servers": "Сервера",
+        "themes": "Темы",
+        "bots": "Боты",
+        "more": "Больше",
+        "loginWithFluxer": "Зайти с помощью Fluxer",
+        "toggleTheme": "Включить тему",
+        "toggleMenu": "Включить меню",
+        "lightMode": "Светлый мод",
+        "darkMode": "Темный мод",
+        "accountBanned": "Аккаунт заблокирован",
+        "banned": "Заблокирован",
+        "banReason": "Причина блокировки"
+    },
+    "footer": {
+        "platform": "Платформа",
+        "resources": "Ресурсы",
+        "about": "Подробнее",
+        "faq": "Часто Задаваемые Вопросы",
+        "status": "Статус",
+        "legal": "Легально"
+    },
+    "home": {
+        "heroHeading1": "СМОТРЕТЬ",
+        "heroHeading2": "И ПОДЕЛИТЬСЯ...",
+        "heroDescription": "Находите и делитесь серверами, ботами и темами Fluxer. Находите коммьюнити, по вашим интересам, мощных ботов для улучшения вашего сервера и потрясающие темы, чтобы сделать fluxer своим.",
+        "addAListing": "Добавить Листинг",
+        "stats": {
+            "serversListed": "Сервера в Листинге"
+        }
+    }
+}
