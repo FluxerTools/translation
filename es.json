@@ -1,5 +1,67 @@
 {
     "common": {
-        "appName": "FluxerList"
+        "appName": "FluxerList",
+        "tagline": "El mejor lugar para descubrir y hacer crecer comunidades de Fluxer. Encuentra a tu gente, construye tu mundo.",
+        "login": "Acceso",
+        "logout": "Cerrar sesión",
+        "dashboard": "Panel",
+        "adminPanel": "Panel de Administración",
+        "browseServers": "Explorar Servidores",
+        "addListing": "Agregar Listado",
+        "addServer": "Agregar Servidor",
+        "leaderboard": "Tabla de Clasificación",
+        "sponsors": "Patrocinadores",
+        "backToFluxerList": "Volver a FluxerList",
+        "joinFluxerServer": "Únete a nuestro servidor de Fluxer",
+        "joinCommunity": "Únete a nuestra comunidad",
+        "viewAll": "Ver todo",
+        "viewAllServers": "Ver todos los servidores",
+        "viewAllThemes": "Ver todos los temas",
+        "viewAllBots": "Ver todos los bots",
+        "readGuide": "Leer la guía",
+        "tryAgain": "Intentar otra vez",
+        "goHome": "Inicio",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "delete": "Borrar",
+        "edit": "Editar",
+        "submit": "Entregar",
+        "loading": "Cargando...",
+        "newBadge": "NUEVO",
+        "partnerBadge": "Pareja",
+        "verifiedBadge": "Verificado",
+        "officialBadge": "Oficial",
+        "members": "Miembros",
+        "votes": "Votos",
+        "version": "Versión Beta 0.1.7 - Número de Compilación 8",
+        "copyright": "© {year} FluxerList. Todos los derechos reservados.",
+        "notAffiliated": "No afiliado oficialmente a Fluxer, Inc."
+    },
+    "navbar": {
+        "home": "Inicio",
+        "servers": "Servidores",
+        "themes": "Temas",
+        "bots": "Bots",
+        "more": "Más",
+        "loginWithFluxer": "Iniciar sesión con Fluxer",
+        "toggleTheme": "Alternar tema",
+        "toggleMenu": "Alternar menú",
+        "lightMode": "Modo claro",
+        "darkMode": "Modo oscuro",
+        "accountBanned": "Cuenta Prohibida",
+        "banned": "Prohibido",
+        "banReason": "Motivo de la prohibición"
+    },
+    "footer": {
+        "platform": "Plataforma",
+        "resources": "Recursos",
+        "about": "Acerca de",
+        "faq": "Preguntas frecuentes",
+        "status": "Estado",
+        "legal": "Legal"
+    },
+    "home": {
+        "heroHeading1": "DESCUBRE",
+        "heroHeading2": "Y COMPARTIR..."
     }
 }
