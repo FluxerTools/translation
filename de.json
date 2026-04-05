@@ -16,11 +16,11 @@
         "backToFluxerList": "Zurück zu FluxerList",
         "joinFluxerServer": "Trete unseren Fluxer Server bei",
         "joinCommunity": "Trete unser Community bei",
-        "viewAllThemes": "Alle Themen ansehen",
+        "viewAllThemes": "Alle Themen anzeigen",
         "viewAllBots": "Alle Bots anzeigen",
         "readGuide": "Leitfaden lesen",
         "tryAgain": "Versuche es erneut",
-        "goHome": "Geh Nachhause",
+        "goHome": "Geh zum Homescreen",
         "save": "Speichern",
         "cancel": "Abbrechen",
         "delete": "Löschen",
@@ -64,6 +64,12 @@
         "heroHeading1": "ENTDECKE",
         "heroHeading2": "UND TEILE...",
         "heroDescription": "Entdecke und teile Fluxer-Server, Bots und Themes. Finde Communities, die deinen Interessen entsprechen, leistungsstarke Bots zur Optimierung deines Servers und beeindruckende Themes, um sie individuell zu gestalten.",
-        "addAListing": "Eintrag hinzufügen"
+        "addAListing": "Eintrag hinzufügen",
+        "stats": {
+            "serversListed": "Server aufgelistet",
+            "members": "Mitglider",
+            "categories": "Kategorien",
+            "themes": "Themen"
+        }
     }
 }
