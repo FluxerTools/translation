@@ -62,6 +62,341 @@
     },
     "home": {
         "heroHeading1": "DESCUBRE",
-        "heroHeading2": "Y COMPARTIR..."
+        "heroHeading2": "Y COMPARTIR...",
+        "stats": {
+            "serversListed": "Servidores Listados",
+            "members": "Miembros",
+            "categories": "Categorías",
+            "themes": "Temas"
+        },
+        "topServers": "Mejores Servidores",
+        "topThemes": "Mejores Temas",
+        "officialServers": "Servidores Oficiales",
+        "memberCount": "{n} miembros"
+    },
+    "servers": {
+        "pageTitle": "Explorar Servidores",
+        "pageDescription": "Descubre {count} servidores de Fluxer y encuentra tu comunidad",
+        "sort": {
+            "popular": "Popular",
+            "members": "Miembros"
+        },
+        "filters": {
+            "official": "Oficial",
+            "nsfw": "NSFW",
+            "language": "Idioma",
+            "allLanguages": "Todos los idiomas"
+        },
+        "results": {
+            "none": "No hay resultados",
+            "for": "para \"{query}\"",
+            "page": "Página {current} de {total}"
+        },
+        "empty": {
+            "title": "No se encontraron servidores",
+            "withSearch": "No hay resultados para \"{query}\". Busca algo diferente.",
+            "withFilters": "No hay servidores que coincidan con tus filtros. Ajusta tu búsqueda."
+        }
+    },
+    "bots": {
+        "pageTitle": "Explorar Bots",
+        "pageDescription": "Descubre potentes bots para tu servidor de Fluxer",
+        "sort": {
+            "popular": "Más Popular"
+        },
+        "tags": {
+            "all": "Todos",
+            "moderation": "Moderación",
+            "music": "Música",
+            "fun": "Diversión",
+            "utility": "Utilidad",
+            "economy": "Economía",
+            "games": "Juegos",
+            "social": "Social",
+            "anime": "Anime",
+            "other": "Otros"
+        },
+        "inviteBot": "Invitar Bot",
+        "inviteWithAdmin": "Invitar con Admin",
+        "permissionsWarning": "Este bot requiere permisos de administrador, lo cual otorga acceso completo a tu servidor. Invítalo sólo si confías en el.",
+        "sensitivePermissions": "{count} permiso(s) sensible(s)",
+        "empty": {
+            "title": "No se encontraron bots",
+            "description": "Intenta ajustar tus filtros o vuelve más tarde."
+        },
+        "limitReached": "Has llegado al límite de {limit} bots."
+    },
+    "themes": {
+        "pageTitle": "Explora Temas",
+        "pageDescription": "Descubre y aplica temas personalizados para tu cliente de Fluxer",
+        "sort": {
+            "popular": "Popular",
+            "new": "Más Recientes",
+            "downloads": "Más Descargados"
+        },
+        "tags": {
+            "all": "Todos",
+            "dark": "Oscuro",
+            "light": "Claro",
+            "neon": "Neon",
+            "pastel": "Pastel",
+            "warm": "Cálido",
+            "blue": "Azul",
+            "purple": "Púrpura",
+            "green": "Verde",
+            "red": "Rojo"
+        },
+        "applyTheme": "Aplicar Tema",
+        "previewTheme": "Vista Previa",
+        "by": "por {author}",
+        "downloads": "{count} descargas",
+        "limitReached": "Has llegado al límite de {limit} temas.",
+        "empty": {
+            "title": "No se encontraron temas",
+            "description": "Intenta ajustar tus filtros o vuelve más tarde."
+        }
+    },
+    "leaderboard": {
+        "pageTitle": "Tabla de Clasificaciones",
+        "pageDescription": "Ve los servidores, bots, y temas mejor clasificados en FluxerList",
+        "tabs": {
+            "servers": "Servidores",
+            "bots": "Bots",
+            "themes": "Temas",
+            "overall": "General"
+        },
+        "periods": {
+            "week": "Esta Semana",
+            "month": "Este Mes"
+        },
+        "categories": {
+            "topThisWeek": "Mejores de Esta Semana",
+            "topThisMonth": "Mejores de Este Mes",
+            "largest": "Servidores más grandes",
+            "newest": "Más Recientes",
+            "mostInvited": "Más Invitados",
+            "mostViewed": "Más Vistos",
+            "newestBots": "Bots Más Nuevos",
+            "mostDownloaded": "Más Descargados",
+            "newestThemes": "Temas Más Nuevos"
+        },
+        "rank": "#{n}",
+        "serverCount": "{n} servidores",
+        "memberCount": "{n} miembros"
+    },
+    "add": {
+        "pageTitle": "Agregar un Ítem",
+        "pageDescription": "Lista tu servidor, bot, o tema de Fluxer en FluxerList",
+        "tabs": {
+            "server": "Servidor",
+            "bot": "Bot",
+            "theme": "Tema"
+        },
+        "steps": {
+            "serverInfo": "Info del Servidor",
+            "description": "Descripción"
+        },
+        "server": {
+            "selectServer": "Selecciona un Servidor",
+            "serverName": "Nombre del Servidor",
+            "inviteLink": "Link de Invitación",
+            "shortDescription": "Descripción Breve",
+            "longDescription": "Descripción Larga",
+            "category": "Categoría",
+            "tags": "Tags",
+            "language": "Idioma",
+            "icon": "Ícono del Servidor",
+            "nsfw": "Este servidor tiene contenido NSFW",
+            "nsfwWarning": "Los servidores NSFW están ocultos por defecto y solo visibles para usuarios con la sesión iniciada que consientan.",
+            "submit": "Enviar a Revisión",
+            "submitSuccess": "Tu servidor ha sido enviado a revisión!",
+            "loginRequired": "Debes iniciar sesión para agregar un servidor.",
+            "noGuilds": "No se encontraron servidores válidos. Asegúrate de que tienes propiedad de un servidor de Fluxer."
+        },
+        "bot": {
+            "botId": "ID del Bot",
+            "botName": "Nombre del Bot",
+            "inviteLink": "Link de Invitación",
+            "shortDescription": "Descripción Corta",
+            "longDescription": "Descripción Larga",
+            "prefix": "Prefijo",
+            "submit": "Enviar a Revisión",
+            "submitSuccess": "Tu bot ha sido enviado a revisión!",
+            "limitReached": "Has llegado al límite de {limit} bots. Borra uno para añadir otro."
+        },
+        "theme": {
+            "themeName": "Nombre del Tema",
+            "description": "Descripción",
+            "accentColor": "Color de acento",
+            "previewColors": "Colores de vista previa",
+            "submit": "Enviar Tema",
+            "submitSuccess": "Tu tema ha sido enviado a revisión!",
+            "limitReached": "Has llegado al limite de {limit} temas. Borra uno para añadir otro.",
+            "importCss": "Importar desde CSS",
+            "importCssDescription": "Pega el CSS de tu tema de Fluxer para extraer colores automáticamente."
+        },
+        "validation": {
+            "required": "Este campo es requerido.",
+            "descriptionTooLong": "La descripción debe ser de {max} caracteres o menos."
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "servers": "Servidores",
+            "bots": "Bots",
+            "themes": "Temas",
+            "appearance": "Apariencia"
+        },
+        "overview": {
+            "welcome": "Hola otra vez, {name}",
+            "yourListings": "Tus Ítems",
+            "needsAttention": "Requiere Atención",
+            "quickActions": "Acciones Rápidas",
+            "addServer": "Agregar Servidor",
+            "viewProfile": "Ver Perfil",
+            "pendingReview": "Revisión pendiente",
+            "rejected": "Rechazado",
+            "approved": "Aprobado",
+            "totalVotes": "Votos Totales",
+            "totalServers": "Servidores",
+            "totalBots": "Bots",
+            "totalThemes": "Temas"
+        },
+        "analytics": {
+            "title": "Analítica",
+            "description": "Una vista general al desempeño de tus Ítems.",
+            "totalVotes": "Votos Totales",
+            "totalViews": "Visualizaciones Totales",
+            "totalInvites": "Invitaciones Totales",
+            "totalMembers": "Miembros Totales",
+            "topPerformers": "Mejor Desempeño",
+            "serverVotes": "Votos de Servidores",
+            "botPerformance": "Desempeño de Bots",
+            "categories": "Categorías",
+            "themes": "Temas",
+            "views": "Visualizaciones",
+            "invites": "Invitaciones",
+            "noData": "No hay datos para mostrar aún."
+        },
+        "servers": {
+            "title": "Mis Servidores",
+            "empty": "No tienes servidores listados aún.",
+            "addFirst": "Agrega tu primer servidor",
+            "status": {
+                "approved": "Aprobado",
+                "pending": "Revisión Pendiente",
+                "rejected": "Rechazado",
+                "banned": "Baneado"
+            },
+            "bumpCooldown": "Disponible en {time}",
+            "edit": "Editar Servidor",
+            "delete": "Borrar Servidor",
+            "deleteConfirm": "En verdad quieres borrar este servidor? Esta acción es irreversible.",
+            "rejectionReason": "Razón de rechazo"
+        },
+        "bots": {
+            "title": "Mis Bots",
+            "empty": "Aún no tienes bots listados.",
+            "status": {
+                "approved": "Aprobado",
+                "pending": "Revisión Pendiente",
+                "rejected": "Rechazado",
+                "banned": "Baneado"
+            },
+            "edit": "Editar Bot",
+            "delete": "Borrar Bot",
+            "deleteConfirm": "En verdad quieres borrar este bot? Esta acción es irreversible.",
+            "rejectionReason": "Razón de rechazo"
+        },
+        "themes": {
+            "title": "Mis Temas",
+            "empty": "Aún no tienes temas listados.",
+            "status": {
+                "approved": "Aprobado",
+                "pending": "Revisión Pendiente",
+                "rejected": "Rechazado"
+            },
+            "edit": "Editar Tema",
+            "delete": "Borrar Tema",
+            "deleteConfirm": "En verdad quieres borrar este tema? Esta acción es irreversible."
+        },
+        "appearance": {
+            "title": "Apariencia",
+            "theme": "Tema",
+            "accentColor": "Color de Acento",
+            "fluxerThemes": "Temas de Fluxer",
+            "importTheme": "Importar Tema",
+            "resetTheme": "Restablecer Predeterminados",
+            "lightMode": "Claro",
+            "darkMode": "Oscuro"
+        },
+        "developer": {
+            "title": "Desarrollador",
+            "apiKeys": "Claves de API",
+            "createKey": "Crear Clave de API",
+            "keyName": "Nombre de la clave",
+            "lastUsed": "Última vez usada",
+            "never": "Nunca",
+            "deleteKey": "Borrar Clave",
+            "deleteKeyConfirm": "En verdad quieres borrar esta clave de API? Aplicaciones que la usen dejarán de funcionar.",
+            "newKeyBanner": "Tu nueva clave de API ha sido creada. Cópiala ahora — no se mostrará denuevo.",
+            "copyKey": "Copiar",
+            "copied": "Copiada!",
+            "noKeys": "No tienes claves de API aún.",
+            "limitReached": "Has llegado al número máximo de claves de API.",
+            "docsLink": "Ver documentación de la API",
+            "comingSoon": "Funciones de desarrollador próximamente",
+            "comingSoonDescription": "La plataforma de desarrolladores está disponible a desarrolladores aprovados. Solicita el acceso para comenzar."
+        },
+        "profile": {
+            "title": "Perfil",
+            "bio": "Bio",
+            "bioPlaceholder": "Cuéntale a la gente sobre ti...",
+            "bioLimit": "{count}/300",
+            "website": "Sitio Web",
+            "twitter": "Twitter / X",
+            "github": "GitHub",
+            "youtube": "YouTube",
+            "addSocialLink": "Agregar link social",
+            "removeSocialLink": "Borrar",
+            "saveChanges": "Guardar Cambios",
+            "saved": "Guardados!",
+            "socialLinks": "Links Sociales",
+            "selectPlatform": "Selecciona una plataforma a agregar"
+        }
+    },
+    "profile": {
+        "totalVotes": "Votos Totales",
+        "servers": "Servidores",
+        "bots": "Bots",
+        "themes": "Temas",
+        "noServers": "No hay servidores listados.",
+        "noBots": "No hay bots listados.",
+        "noThemes": "No hay temas listados.",
+        "loginRequired": "Debes iniciar sesión para ver perfiles.",
+        "userNotFound": "Usuario no se encuentra.",
+        "badges": {
+            "partner": "Asociado",
+            "verified": "Verificado",
+            "staff": "Personal",
+            "bugHunter": "Cazador de bugs",
+            "developer": "Desarrollador"
+        }
+    },
+    "serverDetail": {
+        "joinServer": "Unirse al Servidor",
+        "voteServer": "Votar",
+        "unvoteServer": "Quitar Voto",
+        "bumpServer": "Impulsar",
+        "bumpCooldown": "Impulsado {time} atrás",
+        "memberCount": "{n} miembros",
+        "onlineCount": "{n} en línea",
+        "voteCount": "{n} votos",
+        "about": "Sobre este servidor",
+        "addedOn": "Añadido en {date}",
+        "report": "Reportar",
+        "share": "Compartir",
+        "loginToVote": "Iniciar sesión para votar",
+        "verified": "Servidor verificado"
     }
 }
