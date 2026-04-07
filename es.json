@@ -72,14 +72,20 @@
         "topServers": "Mejores Servidores",
         "topThemes": "Mejores Temas",
         "officialServers": "Servidores Oficiales",
-        "memberCount": "{n} miembros"
+        "memberCount": "{n} miembros",
+        "heroDescription": "Descubre y comparte servidores, bots y temas de Fluxer. Encuentra comunidades que coincidan con tus intereses, bots potentes para mejorar tu servidor y temas impresionantes para hacerlo tuyo.",
+        "addAListing": "Agregar un Listado",
+        "byVotes": "por votos",
+        "newToday": "{n} nuevo hoy",
+        "partnerBots": "Bots Asociados"
     },
     "servers": {
         "pageTitle": "Explorar Servidores",
         "pageDescription": "Descubre {count} servidores de Fluxer y encuentra tu comunidad",
         "sort": {
             "popular": "Popular",
-            "members": "Miembros"
+            "members": "Miembros",
+            "new": "Nuevo"
         },
         "filters": {
             "official": "Oficial",
@@ -90,7 +96,10 @@
         "results": {
             "none": "No hay resultados",
             "for": "para \"{query}\"",
-            "page": "Página {current} de {total}"
+            "page": "Página {current} de {total}",
+            "found_one": "{count} servidor encontrado",
+            "found_many": "{count} servidores encontrados",
+            "found_other": "{count} otros servidores encontrados"
         },
         "empty": {
             "title": "No se encontraron servidores",
@@ -102,7 +111,8 @@
         "pageTitle": "Explorar Bots",
         "pageDescription": "Descubre potentes bots para tu servidor de Fluxer",
         "sort": {
-            "popular": "Más Popular"
+            "popular": "Más Popular",
+            "new": "Novisimo"
         },
         "tags": {
             "all": "Todos",
@@ -124,7 +134,8 @@
             "title": "No se encontraron bots",
             "description": "Intenta ajustar tus filtros o vuelve más tarde."
         },
-        "limitReached": "Has llegado al límite de {limit} bots."
+        "limitReached": "Has llegado al límite de {limit} bots.",
+        "safeInvite": "Invitación Segura"
     },
     "themes": {
         "pageTitle": "Explora Temas",
@@ -144,7 +155,9 @@
             "blue": "Azul",
             "purple": "Púrpura",
             "green": "Verde",
-            "red": "Rojo"
+            "red": "Rojo",
+            "minimal": "Mínimo",
+            "clean": "Limpio"
         },
         "applyTheme": "Aplicar Tema",
         "previewTheme": "Vista Previa",
@@ -154,7 +167,8 @@
         "empty": {
             "title": "No se encontraron temas",
             "description": "Intenta ajustar tus filtros o vuelve más tarde."
-        }
+        },
+        "downloadTheme": "Descargar Tema"
     },
     "leaderboard": {
         "pageTitle": "Tabla de Clasificaciones",
@@ -167,7 +181,8 @@
         },
         "periods": {
             "week": "Esta Semana",
-            "month": "Este Mes"
+            "month": "Este Mes",
+            "allTime": "De todos los tiempos"
         },
         "categories": {
             "topThisWeek": "Mejores de Esta Semana",
@@ -178,11 +193,15 @@
             "mostViewed": "Más Vistos",
             "newestBots": "Bots Más Nuevos",
             "mostDownloaded": "Más Descargados",
-            "newestThemes": "Temas Más Nuevos"
+            "newestThemes": "Temas Más Nuevos",
+            "topAllTime": "Lo Mejor de Todos los Tiempos",
+            "recentlyBumped": "Recientemente Ascendido",
+            "overall": "Clasificaciones Generales"
         },
         "rank": "#{n}",
         "serverCount": "{n} servidores",
-        "memberCount": "{n} miembros"
+        "memberCount": "{n} miembros",
+        "bumpedAgo": "Subido {time}"
     },
     "add": {
         "pageTitle": "Agregar un Ítem",
@@ -194,7 +213,9 @@
         },
         "steps": {
             "serverInfo": "Info del Servidor",
-            "description": "Descripción"
+            "description": "Descripción",
+            "tagsAndDetails": "Etiquetas y Detalles",
+            "review": "Revisar"
         },
         "server": {
             "selectServer": "Selecciona un Servidor",
@@ -211,7 +232,8 @@
             "submit": "Enviar a Revisión",
             "submitSuccess": "Tu servidor ha sido enviado a revisión!",
             "loginRequired": "Debes iniciar sesión para agregar un servidor.",
-            "noGuilds": "No se encontraron servidores válidos. Asegúrate de que tienes propiedad de un servidor de Fluxer."
+            "noGuilds": "No se encontraron servidores válidos. Asegúrate de que tienes propiedad de un servidor de Fluxer.",
+            "bannerColor": "Color de La Pancarta"
         },
         "bot": {
             "botId": "ID del Bot",
@@ -222,7 +244,8 @@
             "prefix": "Prefijo",
             "submit": "Enviar a Revisión",
             "submitSuccess": "Tu bot ha sido enviado a revisión!",
-            "limitReached": "Has llegado al límite de {limit} bots. Borra uno para añadir otro."
+            "limitReached": "Has llegado al límite de {limit} bots. Borra uno para añadir otro.",
+            "guide": "Lee la Guía de envío de Bots antes de enviar."
         },
         "theme": {
             "themeName": "Nombre del Tema",
@@ -233,7 +256,9 @@
             "submitSuccess": "Tu tema ha sido enviado a revisión!",
             "limitReached": "Has llegado al limite de {limit} temas. Borra uno para añadir otro.",
             "importCss": "Importar desde CSS",
-            "importCssDescription": "Pega el CSS de tu tema de Fluxer para extraer colores automáticamente."
+            "importCssDescription": "Pega el CSS de tu tema de Fluxer para extraer colores automáticamente.",
+            "downloadUrl": "URL de Descarga",
+            "previewUrl": "URL de Vista Previa"
         },
         "validation": {
             "required": "Este campo es requerido.",
