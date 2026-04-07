@@ -20,7 +20,7 @@
         "viewAllBots": "Alle Bots anzeigen",
         "readGuide": "Anleitung lesen",
         "tryAgain": "Versuche es erneut",
-        "goHome": "Geh zum Homescreen",
+        "goHome": "Geh zum Home",
         "save": "Speichern",
         "cancel": "Abbrechen",
         "delete": "Löschen",
@@ -48,9 +48,9 @@
         "toggleMenu": "Menü umschalten",
         "lightMode": "Hellmodus",
         "darkMode": "Dunkelmodus",
-        "accountBanned": "Konto gebannt",
-        "banned": "Gebannt",
-        "banReason": "Bann-Grund"
+        "accountBanned": "Konto gesperrt",
+        "banned": "Gesperrt",
+        "banReason": "Sperrungsgrund"
     },
     "footer": {
         "platform": "Platform",
@@ -80,7 +80,7 @@
         "memberCount": "{n} Mitglied(er)"
     },
     "servers": {
-        "pageTitle": "Server durchsuchen",
+        "pageTitle": "Durchsuche Server",
         "pageDescription": "Entdecke {count} Fluxer Server und finde deine Community",
         "sort": {
             "popular": "Beliebt",
@@ -108,7 +108,7 @@
     },
     "bots": {
         "pageTitle": "Durchsuche Bots",
-        "pageDescription": "Entdecke mächtige Bots für deinen Fluxer-Server",
+        "pageDescription": "Entdecke leistungsstarke Bots für deinen Fluxer-Server",
         "sort": {
             "popular": "Am beliebtesten",
             "new": "Neueste"
@@ -118,7 +118,7 @@
             "moderation": "Moderation",
             "music": "Musik",
             "fun": "Spaß",
-            "utility": "Hilfsmittel",
+            "utility": "Werkzeuge",
             "economy": "Wirtschaft",
             "games": "Spiele",
             "social": "Sozial",
@@ -138,7 +138,7 @@
     },
     "themes": {
         "pageTitle": "Durchsuche Themes",
-        "pageDescription": "Entdecken und wenden Sie individuelle Themes für Ihren Fluxer-Client an",
+        "pageDescription": "Entdecken und wenden Sie benutzerdefinierte Themes für Ihren Fluxer-Client an",
         "sort": {
             "popular": "Beliebt",
             "new": "Neu",
@@ -285,8 +285,8 @@
             "needsAttention": "Braucht Aufmerksamkeit",
             "quickActions": "Schnelle Aktionen",
             "addServer": "Server hinzufügen",
-            "addBot": "Bot einreichen",
-            "addTheme": "Theme einreichen",
+            "addBot": "Bot hinzufügen",
+            "addTheme": "Theme hinzufügen",
             "viewProfile": "Profil anzeigen",
             "pendingReview": "Ausstehende Überprüfung",
             "rejected": "Abgelehnt",
@@ -322,7 +322,7 @@
                 "approved": "Genehmigt",
                 "pending": "Ausstehende Überprüfung",
                 "rejected": "Abgelehnt",
-                "banned": "Gebannt"
+                "banned": "Gesperrt"
             },
             "bump": "Bump",
             "bumpCooldown": "Verfügbar in {time}",
@@ -339,7 +339,7 @@
                 "approved": "Genehmigt",
                 "pending": "Ausstehende Überprüfung",
                 "rejected": "Abgelehnt",
-                "banned": "Gebannt"
+                "banned": "Gesperrt"
             },
             "edit": "Bot bearbeiten",
             "delete": "Bot löschen",
@@ -515,8 +515,283 @@
                 "a2": "Sortiert die Server nach ihrer Mitgliederzahl von der größten zur kleinsten, sodass die größten Communities oben erscheinen.",
                 "q3": "Was bewirkt die „Beliebt“ Sortierung?",
                 "a3": "Sortiert die Server nach der Gesamtzahl der erhaltenen Stimmen — je mehr Stimmen, desto höher die Platzierung.",
-                "q4": "Wie funktionieren Kategorien?"
+                "q4": "Wie funktionieren Kategorien?",
+                "a4": "Kategorien filtern Server anhand ihrer Tags. Wenn Sie eine Kategorie wie Gaming oder Musik auswählen, werden nur Server angezeigt, die diesen Tag haben.",
+                "q5": "Kann ich nach Servern suchen?",
+                "a5": "Ja – die Suchleiste gleicht Servernamen, Beschreibungen und Tags gleichzeitig ab."
+            },
+            "addingAndManaging": {
+                "title": "Hinzufügen & Server verwalten",
+                "q1": "Wie füge ich meinen Server hinzu?",
+                "a1": "Melde dich mit deinem Fluxer-Konto an und klicke anschließend auf „Server hinzufügen“. Gib deine Serverdetails ein und sende das Formular ab — dein Eintrag wird vor der Veröffentlichung geprüft.",
+                "q2": "Wie lange dauert die Genehmigung?",
+                "a2": "Die meisten Server werden innerhalb von 24–48 Stunden geprüft. Sie können den Status Ihrer Einreichung in Ihrem Profil-Dashboard verfolgen.",
+                "q3": "Warum wurde mein Server abgelehnt?",
+                "a3": "Häufige Gründe sind ein ungültiger Einladungslink, eine Beschreibung, die gegen unsere Richtlinien verstößt, oder fehlende Pflichtangaben. Überprüfen Sie Ihr Dashboard auf Hinweise von Prüfern.",
+                "q4": "Kann ich meinen Server nach dem Absenden noch bearbeiten?",
+                "a4": "Ja — gehe zu deinem Profil-Dashboard, suche deinen Server und klicke auf die Schaltfläche „Bearbeiten“, um die Beschreibung, Tags, den Einladungslink und mehr zu aktualisieren.",
+                "q5": "Wie kann ich meinen Servereintrag löschen?",
+                "a5": "Gehen Sie zu Ihrem Profil-Dashboard, suchen Sie den Server und klicken Sie auf „Löschen“. Sie werden um eine Bestätigung gebeten, bevor er endgültig entfernt wird."
+            },
+            "bots": {
+                "title": "Bots",
+                "q1": "Wie kann ich einen Bot einreichen?",
+                "a1": "Melde dich mit Fluxer an und gehe dann zu Bot einreichen. Lies dir vorher die Anleitung zur Bot-Einreichung durch — dort wird alles erklärt, was die Prüfer überprüfen.",
+                "q2": "Wie lange dauert die Bot-Überprüfung?",
+                "a2": "Bot-Überprüfungen dauern in der Regel 2–5 Tage. Sie sind gründlicher als Server-Überprüfungen — wir fügen Ihren Bot einer privaten Test-Community hinzu und überprüfen jeden Befehl.",
+                "q3": "Warum wurde mein Bot abgelehnt?",
+                "a3": "Häufige Gründe: nicht übereinstimmende Berechtigungen, eine ungültige Einladungs-URL, fehlende Datenschutzhinweise oder Befehle, die nicht innerhalb der erwarteten Zeit ausgeführt werden. Überprüfen Sie Ihr Dashboard auf Anmerkungen der Prüfer.",
+                "q4": "Wie viele Bots kann ich einreichen?",
+                "a4": "Bis zu 5 Bots pro Konto. Falls Sie mehr Bots auflisten möchten, wenden Sie sich bitte an den Support-Server.",
+                "q5": "Wo kann ich die vollständigen Bot-Bewertungskriterien lesen?",
+                "a5": "Die Anleitung zur Bot-Einreichung umfasst alle Anforderungen, den 5-stufigen Überprüfungsprozess, Datenschutzbestimmungen und Tipps für eine schnellere Genehmigung."
+            },
+            "bumpingAndVotes": {
+                "title": "Bumpen & Abstimmen",
+                "q1": "Was ist bumpen?",
+                "a1": "Bumpen aktualisiert deine Serverposition auf der Bestenliste und signalisiert Aktivität. Sie können jeden Server einmal alle 12 Stunden bumpen.",
+                "q2": "Wie kann ich für einen Server abstimmen?",
+                "a2": "Öffne die Seite eines beliebigen Servers und klicke auf den Abstimmungsbutton. Du musst mit deinem Fluxer-Konto angemeldet sein, um abstimmen zu können.",
+                "q3": "Wie oft kann ich abstimmen?",
+                "a3": "Sie können für jeden Server einmal abstimmen. Sollten Sie Ihre Meinung ändern, können Sie Ihre Stimme jederzeit zurückziehen."
+            },
+            "accountAndPrivacy": {
+                "title": "Konto & Datenschutz",
+                "q1": "Wie kann ich mich anmelden?",
+                "a1": "FluxerList verwendet Fluxer OAuth – klicken Sie auf „Anmelden“, um zur Autorisierung zu Fluxer weitergeleitet zu werden. Es ist kein separates Konto erforderlich.",
+                "q2": "Erfasst FluxerList meine E-Mail-Adresse?",
+                "a2": "Nein. FluxerList fragt lediglich nach Ihren Fluxer-Benutzernamen, Ihren Anzeigenamen und Ihr Avatarbild. Ihre E-Mail-Adresse wird weder abgefragt noch gespeichert.",
+                "q3": "Ist FluxerList offiziell mit Fluxer verbunden?",
+                "a3": "Nein. FluxerList ist ein unabhängiges, von der Community betriebenes Projekt und steht in keiner offiziellen Verbindung zu Fluxer, Inc. und wird auch nicht von Fluxer, Inc. unterstützt."
+            },
+            "support": {
+                "title": "Support",
+                "q1": "Wo kann ich Hilfe erhalten oder ein Problem melden?",
+                "a1": "Tritt unserem FluxerList-Community-Server bei — unser Team und die Community-Mitglieder stehen dir gerne zur Seite.",
+                "q2": "Wie melde ich einen Server, der gegen die Regeln verstößt?",
+                "a2": "Bitte melden Sie dies auf unserem Community-Server, ein Moderator wird es prüfen."
             }
+        }
+    },
+    "about": {
+        "pageTitle": "Über FluxerList",
+        "heading": "Communities dabei helfen, einander zu finden",
+        "description": "FluxerList ist eine Server-Listing-Plattform, die speziell für die Fluxer-Community entwickelt wurde. Wir erleichtern es Nutzern, Server zu entdecken, die ihnen gefallen, und Serverbesitzern, die passenden Mitglieder zu finden.",
+        "stats": {
+            "serversListed": "Server aufgelistet",
+            "membersAcrossAll": "Mitglieder auf allen Servern",
+            "votesCast": "Abgegebene Stimmen"
+        },
+        "whatWeStandFor": "Wofür wir stehen",
+        "values": {
+            "discoveryThatWorks": {
+                "title": "Entdeckung, die funktioniert",
+                "description": "Jeder Server erhält die gleiche Chance, gefunden zu werden. Unser Ranking basiert auf Aktivität und Nutzerinteraktion, nicht auf willkürlichen Faktoren."
+            },
+            "communityFirst": {
+                "title": "Community first",
+                "description": "FluxerList existiert wegen der Fluxer-Community. Jede Funktion ist darum herum aufgebaut, was Communities wirklich brauchen."
+            },
+            "transparent": {
+                "title": "Transparent",
+                "description": "Keine fragwürdige Ranking-Manipulation. Die Roadmap wird offen geteilt, und wir freuen uns über Feedback in jedem Schritt."
+            }
+        },
+        "builtForCommunity": "Gebaut für die Community",
+        "builtForCommunityDescription": "FluxerList wurde von Fluxer-Nutzern für Fluxer-Nutzer entwickelt. Wenn Sie Feedback, Ideen für neue Funktionen haben oder einfach mitmachen möchten — wir freuen uns, von Ihnen zu hören.",
+        "browseServers": "Durchsuche Server",
+        "addYourServer": "Fügen Sie Ihren Server hinzu"
+    },
+    "premium": {
+        "pageTitle": "FluxerList Premium",
+        "pageDescription": "Werten Sie Ihren Servereintrag mit Premium-Funktionen auf.",
+        "comingSoon": "Demnächst verfügbar",
+        "features": {
+            "featuredPlacement": {
+                "title": "Hervorgehobene Platzierung",
+                "description": "Sorgen Sie dafür, dass Ihr Server ganz oben in den Suchergebnissen und auf den Kategorieseiten erscheint."
+            },
+            "customBanner": {
+                "title": "Benutzerdefinierter Banner",
+                "description": "Laden Sie ein individuellen Banner hoch, um Ihre Serverliste von der Masse abzuheben."
+            },
+            "advancedAnalytics": {
+                "title": "Erweiterte Analytik",
+                "description": "Erhalten Sie detaillierte Einblicke in die Aufrufe, Klicks und das Mitgliederwachstum Ihres Servers."
+            },
+            "boostVisibility": {
+                "title": "Erhöhte Sichtbarkeit",
+                "description": "Steigern Sie Ihre Server Sichtbarkeit durch eine priorisierte Auflistung in allen Suchergebnissen."
+            },
+            "premiumBadge": {
+                "title": "Premium-Abzeichen",
+                "description": "Zeigen Sie ein Premium-Badge auf Ihrem Server an, um Vertrauen und Glaubwürdigkeit aufzubauen."
+            },
+            "prioritySupport": {
+                "title": "Vorrangiger Support",
+                "description": "Erhalten Sie schnellere Reaktionszeiten und priorisiertem Support durch unser Team."
+            }
+        },
+        "plans": {
+            "pro": {
+                "features": [
+                    "Alles in Starter",
+                    "Premium-Abzeichen",
+                    "Erweiterte Analytik",
+                    "25% Steigerung der Einträge",
+                    "Vorrangiger Support",
+                    "Auf der Homepage hervorgehoben"
+                ],
+                "name": "Pro",
+                "popular": "Am beliebtesten"
+            },
+            "starter": {
+                "name": "Starter",
+                "features": [
+                    "Hervorgehobenes Abzeichen",
+                    "Benutzerdefinierter Banner",
+                    "Grundlegende Analysen",
+                    "5% Steigerung der Einträge",
+                    "Email-Support"
+                ]
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "features": [
+                    "Alles in Pro",
+                    "Top-Platzierungsgarantie",
+                    "50% Steigerung der Einträge",
+                    "Engagierte Unterstützung",
+                    "Benutzerdefinierte Funktionen",
+                    "API-Zugriff"
+                ]
+            }
+        },
+        "perMonth": "/Monat",
+        "getStarted": "Legen Sie los",
+        "contactUs": "Kontaktieren Sie uns"
+    },
+    "errors": {
+        "notFound": {
+            "title": "Im Nichts verloren?",
+            "code": "Fehler 404",
+            "description": "Die gesuchte Seite ist im digitalen Nirwana verschwunden. Wir helfen Ihnen, wieder auf den richtigen Weg zu kommen.",
+            "backToHome": "Zurück zum Home",
+            "browseServers": "Durchsuche Server"
+        },
+        "auth": {
+            "OAuthSignin": {
+                "title": "Die Anmeldung ist fehlgeschlagen",
+                "description": "Der OAuth-Anmeldevorgang konnte nicht gestartet werden. Bitte versuchen Sie es erneut."
+            },
+            "OAuthCallback": {
+                "title": "OAuth-Callback-Fehler",
+                "description": "Beim Anmelden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+            },
+            "OAuthCreateAccount": {
+                "title": "Kontoerstellung fehlgeschlagen",
+                "description": "Wir konnten Ihr Konto nicht erstellen. Möglicherweise besitzen Sie bereits ein Konto bei einem anderen Anbieter."
+            },
+            "EmailCreateAccount": {
+                "title": "Kontoerstellung fehlgeschlagen",
+                "description": "Wir konnten Ihr Konto mit dieser E-Mail-Adresse nicht erstellen."
+            },
+            "Callback": {
+                "title": "Rückruffehler",
+                "description": "Ein Fehler ist bei der Authentifizierung aufgetreten. Bitte versuchen Sie es erneut."
+            },
+            "OAuthAccountNotLinked": {
+                "title": "Konto nicht verknüpft",
+                "description": "Diese E-Mail-Adresse ist bereits mit einer anderen Anmeldemethode verknüpft. Bitte melden Sie sich mit der ursprünglichen Methode an."
+            },
+            "EmailSignin": {
+                "title": "Anmeldung per E-Mail fehlgeschlagen",
+                "description": "Der Anmeldelink ist ungültig oder abgelaufen. Bitte fordern Sie einen neuen an."
+            },
+            "CredentialsSignin": {
+                "title": "Ungültige Anmeldedaten",
+                "description": "Die von Ihnen angegebenen Anmeldedaten sind falsch. Bitte versuchen Sie es erneut."
+            },
+            "SessionRequired": {
+                "title": "Anmeldung erforderlich",
+                "description": "Sie müssen angemeldet sein, um auf diese Seite zugreifen zu können."
+            },
+            "AccessDenied": {
+                "title": "Zugriff verweigert",
+                "description": "Sie haben keine Berechtigung, sich anzumelden."
+            },
+            "Verification": {
+                "title": "Verifikation fehlgeschlagen",
+                "description": "Der Verifikationslink ist ungültig oder abgelaufen."
+            },
+            "Default": {
+                "title": "Authentifizierungsfehler",
+                "description": "Es ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut."
+            },
+            "showDetails": "Fehlerdetails anzeigen",
+            "hideDetails": "Fehlerdetails ausblenden"
+        },
+        "global": {
+            "title": "Etwas ist schief gelaufen",
+            "description": "Es ist ein unerwarteter Fehler aufgetreten. Bitte aktualisieren Sie die Seite.",
+            "tryAgain": "Versuche es erneut"
+        }
+    },
+    "banned": {
+        "pageTitle": "Konto gesperrt",
+        "heading": "Du wurdest gesperrt",
+        "description": "Ihr Konto wurde bei FluxerList gesperrt und Sie haben keinen Zugriff mehr auf die Plattform.",
+        "reason": "Grund",
+        "appealText": "Haben wir ein Fehler gemacht? Legen Sie Einspruch auf unserem Fluxer-Server ein."
+    },
+    "maintenance": {
+        "pageTitle": "Unter Wartungsarbeiten",
+        "heading": "Unter Wartungsarbeiten",
+        "description": "FluxerList befindet sich unter Wartungsarbeiten. Wir sind in Kürze wieder online – vielen Dank für Ihre Geduld.",
+        "inProgress": "Wartungsarbeiten im Gange"
+    },
+    "report": {
+        "title": "Melden",
+        "reason": "Grund",
+        "details": "Weitere Details",
+        "detailsPlaceholder": "Beschreiben Sie das Problem...",
+        "submit": "Meldung einreichen",
+        "success": "Meldung eingereicht. Danke.",
+        "reasons": {
+            "spam": "Spam",
+            "misinformation": "Fehlinformationen",
+            "hateSpeech": "Hassrede",
+            "nsfw": "Unangemessen / NSFW",
+            "scam": "Betrug oder Phishing",
+            "other": "Andere"
+        }
+    },
+    "components": {
+        "searchBar": {
+            "placeholder": "Suche Server..."
+        },
+        "bumpButton": {
+            "bump": "Bump",
+            "cooldown": "Wieder bumpen in {time}",
+            "loginRequired": "Melden Sie sich an, um zu bumpen"
+        },
+        "voteButton": {
+            "vote": "Voten",
+            "unvote": "Abstimmung entfernen",
+            "loginRequired": "Melden Sie sich an, um abzustimmen"
+        },
+        "categoryFilter": {
+            "all": "Alles",
+            "gaming": "Gaming",
+            "music": "Musik",
+            "anime": "Anime",
+            "technology": "Technologie",
+            "education": "Bildung",
+            "art": "Kunst",
+            "sports": "Sport",
+            "community": "Community",
+            "roleplay": "Rollenspiel",
+            "nsfw": "NSFW"
         }
     }
 }
