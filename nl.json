@@ -1,1 +1,305 @@
-{}
+{
+    "common": {
+        "appName": "FluxerList",
+        "tagline": "De beste plek om Fluxer gemeenschappen te ontdekken en te laten groeien. Vind jouw mensen, bouw jouw wereld.",
+        "login": "Inloggen",
+        "logout": "Uitloggen",
+        "dashboard": "Dashboard",
+        "adminPanel": "Beheerderspaneel",
+        "browseServers": "Servers bekijken",
+        "addListing": "Vermelding toevoegen",
+        "addServer": "Server toevoegen",
+        "leaderboard": "Ranglijst",
+        "sponsors": "Sponsors",
+        "backToFluxerList": "Terug naar FluxerList",
+        "joinFluxerServer": "Word lid van onze Fluxer Server",
+        "joinCommunity": "Word lid van onze gemeenschap",
+        "viewAll": "Alles bekijken",
+        "viewAllServers": "Alle servers bekijken",
+        "viewAllThemes": "Alle thema's bekijken",
+        "viewAllBots": "Alle bots bekijken",
+        "readGuide": "Lees handleiding",
+        "tryAgain": "Probeer opnieuw",
+        "goHome": "Ga naar de startpagina",
+        "save": "Opslaan",
+        "cancel": "Annuleren",
+        "delete": "Verwijderen",
+        "edit": "Bewerken",
+        "submit": "Bevestigen",
+        "loading": "Laden...",
+        "newBadge": "NIEUW",
+        "partnerBadge": "Partner",
+        "verifiedBadge": "Geverifieerd",
+        "officialBadge": "Officieel",
+        "members": "leden",
+        "votes": "stemmen",
+        "version": "Versie Beta 0.1.7 - Buildnummer 8",
+        "copyright": "© {year} FluxerList. Alle rechten voorbehouden.",
+        "notAffiliated": "Niet officieel verbonden met Fluxer, Inc."
+    },
+    "navbar": {
+        "home": "Startpagina",
+        "servers": "Servers",
+        "themes": "Thema's",
+        "bots": "Bots",
+        "more": "Meer",
+        "loginWithFluxer": "Inloggen met Fluxer",
+        "toggleTheme": "Thema wisselen",
+        "toggleMenu": "Menu wisselen",
+        "lightMode": "Lichte modus",
+        "darkMode": "Donkere modus",
+        "accountBanned": "Account verbannen",
+        "banned": "Verbannen",
+        "banReason": "Reden voor verbanning"
+    },
+    "footer": {
+        "platform": "Platform",
+        "resources": "Hulpbronnen",
+        "about": "Over",
+        "faq": "Veelgestelde vragen",
+        "status": "Status",
+        "legal": "Juridisch"
+    },
+    "home": {
+        "heroHeading1": "ONTDEK",
+        "heroHeading2": "EN DEEL..",
+        "heroDescription": "Ontdek en deel Fluxer servers, bots en thema's. Vind communities die bij je interesses passen, krachtige bots om je server verbeteren, en prachtige thema's om er je eigen wereld van te maken.",
+        "addAListing": "Vermelding toevoegen",
+        "stats": {
+            "serversListed": "Vermelde servers",
+            "members": "Leden",
+            "categories": "Categorieën",
+            "themes": "Thema's"
+        },
+        "topServers": "Top Servers",
+        "byVotes": "volgens stemmen",
+        "newToday": "{n} vandaag nieuw",
+        "topThemes": "Top thema's",
+        "partnerBots": "Parnerbots",
+        "officialServers": "Officiële Servers",
+        "memberCount": "{n} leden"
+    },
+    "servers": {
+        "pageTitle": "Servers verkennen",
+        "pageDescription": "Ontdek {count} Fluxer servers en vind jouw community",
+        "sort": {
+            "popular": "Populair",
+            "new": "Nieuw",
+            "members": "Leden"
+        },
+        "filters": {
+            "official": "Officieel",
+            "nsfw": "NSFW",
+            "language": "Taal",
+            "allLanguages": "Alle talen"
+        },
+        "results": {
+            "none": "Geen resultaten",
+            "found_one": "{count} server gevonden",
+            "found_other": "{count} servers gevonden",
+            "for": "voor \"{query}\"",
+            "page": "Pagina {current} van {total}"
+        },
+        "empty": {
+            "title": "Geen servers gevonden",
+            "withSearch": "Geen resultaten voor \"{query}\". Probeer een andere zoekterm.",
+            "withFilters": "Geen servers voldoen aan je filters. Probeer je zoekopdracht aan te passen."
+        }
+    },
+    "bots": {
+        "pageTitle": "Bots verkennen",
+        "pageDescription": "Ontdek krachtige bots voor jouw Fluxer server",
+        "sort": {
+            "popular": "Meest populair",
+            "new": "Nieuwste"
+        },
+        "tags": {
+            "all": "Alles",
+            "moderation": "Moderatie",
+            "music": "Muziek",
+            "fun": "Plezier",
+            "utility": "Hulpmiddel",
+            "economy": "Economie",
+            "games": "Spellen",
+            "social": "Sociaal",
+            "anime": "Anime",
+            "other": "Overig"
+        },
+        "inviteBot": "Bot uitnodigen",
+        "inviteWithAdmin": "Uitnodigen met Admin",
+        "safeInvite": "Veilige uitnodiging",
+        "permissionsWarning": "Deze bot vraagt om beheerdersrechten, waarmee volledige toegang tot je server wordt verleend. Nodig alleen bots uit die je vertrouwt.",
+        "sensitivePermissions": "{count} gevoelige machtiging(en)",
+        "empty": {
+            "title": "Geen bots gevonden",
+            "description": "Probeer je filters aan te passen of kom later terug."
+        },
+        "limitReached": "Je hebt de limiet van {limit} bots bereikt."
+    },
+    "themes": {
+        "pageTitle": "Verken Thema's",
+        "pageDescription": "Ontdek en gebruik aangepaste thema's voor je Fluxer-client",
+        "sort": {
+            "popular": "Populair",
+            "new": "Recent toegevoegd",
+            "downloads": "Downloads"
+        },
+        "tags": {
+            "all": "Alles",
+            "dark": "Donker",
+            "light": "Licht",
+            "minimal": "Minimaal",
+            "neon": "Neon",
+            "pastel": "Pastel",
+            "warm": "Warm",
+            "clean": "Schoon",
+            "blue": "Blauw",
+            "purple": "Paars",
+            "green": "Groen",
+            "red": "Rood"
+        },
+        "applyTheme": "Thema toepassen",
+        "downloadTheme": "Thema downloaden",
+        "previewTheme": "Voorbeeld",
+        "by": "door {author}",
+        "downloads": "{count} downloads",
+        "limitReached": "Je hebt de limiet van {limit} thema's bereikt.",
+        "empty": {
+            "title": "Geen thema's gevonden",
+            "description": "Probeer je filters aan te passen of kom later terug."
+        }
+    },
+    "leaderboard": {
+        "pageTitle": "Ranglijst",
+        "pageDescription": "Bekijk de best beoordeelde servers, bots en thema's op FluxerList",
+        "tabs": {
+            "servers": "Servers",
+            "bots": "Bots",
+            "themes": "Thema's",
+            "overall": "Algemeen"
+        },
+        "periods": {
+            "week": "Deze Week",
+            "month": "Deze maand",
+            "allTime": "Alle tijden"
+        },
+        "categories": {
+            "topAllTime": "Top aller tijden",
+            "topThisWeek": "Top deze week",
+            "topThisMonth": "Top deze maand",
+            "largest": "Grootste Servers",
+            "newest": "Nieuwste",
+            "recentlyBumped": "Recent gebumpt",
+            "mostInvited": "Meest uitgenodigd",
+            "mostViewed": "Meest bekeken",
+            "newestBots": "Nieuwste Bots",
+            "mostDownloaded": "Meest gedownload",
+            "newestThemes": "Nieuwste Thema's",
+            "overall": "Algemene ranglijsten"
+        },
+        "rank": "#{n}",
+        "serverCount": "{n} servers",
+        "memberCount": "{n} leden",
+        "bumpedAgo": "Gebumpt {time}"
+    },
+    "add": {
+        "pageTitle": "Vermelding toevoegen",
+        "pageDescription": "Plaats je Fluxer-server, bot of thema op FluxerList",
+        "tabs": {
+            "server": "Server",
+            "bot": "Bot",
+            "theme": "Thema"
+        },
+        "steps": {
+            "serverInfo": "Server Info",
+            "description": "Beschrijving",
+            "tagsAndDetails": "Tags & Details",
+            "review": "Beoordeling"
+        },
+        "server": {
+            "selectServer": "Kies een Server",
+            "serverName": "Server naam",
+            "inviteLink": "Uitnodigingslink",
+            "shortDescription": "Korte beschrijving",
+            "longDescription": "Lange beschrijving",
+            "category": "Categorie",
+            "tags": "Tags",
+            "language": "Taal",
+            "icon": "Server-icoon",
+            "bannerColor": "Bannerkleur",
+            "nsfw": "Deze server bevat NSFW-inhoud",
+            "nsfwWarning": "NSFW servers zijn standaard verborgen en alleen zichtbaar voor ingelogde gebruikers die ervoor kiezen ze te tonen.",
+            "submit": "Ter beoordeling indienen",
+            "submitSuccess": "Je server is ter beoordeling ingediend!",
+            "loginRequired": "Je moet ingelogd zijn om een server toe te voegen.",
+            "noGuilds": "Geen geschikte servers gevonden. Controleer of je eigenaar bent van een Fluxer-server."
+        },
+        "bot": {
+            "botId": "Bot ID",
+            "botName": "Bot Naam",
+            "inviteLink": "Uitnodigingslink",
+            "shortDescription": "Korte beschrijving",
+            "longDescription": "Lange beschrijving",
+            "prefix": "Prefix",
+            "tags": "Tags",
+            "submit": "Ter beoordeling indienen",
+            "submitSuccess": "Je bot is ter beoordeling ingediend!",
+            "limitReached": "Je hebt de limiet van {limit} bots bereikt. Verwijder er één uit FluxerList om er nog een toe te voegen.",
+            "guide": "Lees de handleiding voor het indienen van bots voordat je deze indient."
+        },
+        "theme": {
+            "themeName": "Thema naam",
+            "description": "Beschrijving",
+            "downloadUrl": "Download-URL",
+            "previewUrl": "Voorbeeld-URL",
+            "accentColor": "Accentkleur",
+            "previewColors": "Voorbeeldkleuren",
+            "tags": "Tags",
+            "submit": "Thema indienen",
+            "submitSuccess": "Je thema is ter beoordeling ingediend!",
+            "limitReached": "Je hebt de limiet van {limit} thema's bereikt. Verwijder er één om een andere toe te voegen.",
+            "importCss": "Importeren vanuit CSS",
+            "importCssDescription": "Plak je Fluxer-thema CSS om automatisch kleuren te extraheren."
+        },
+        "validation": {
+            "required": "Dit veld is verplicht.",
+            "invalidUrl": "Voer een geldige URL in.",
+            "descriptionTooLong": "De beschrijving mag maximaal {max} tekens lang zijn.",
+            "tooManyTags": "Je kunt maximaal {max} tags kiezen."
+        }
+    },
+    "dashboard": {
+        "pageTitle": "Dashboard",
+        "tabs": {
+            "overview": "Overzicht",
+            "analytics": "Analyse",
+            "servers": "Servers",
+            "bots": "Bots",
+            "themes": "Thema's",
+            "appearance": "Uiterlijk",
+            "developer": "Ontwikkelaar"
+        },
+        "overview": {
+            "welcome": "Welkom terug, {name}",
+            "yourListings": "Jouw vermeldingen",
+            "needsAttention": "Vereist aandacht",
+            "quickActions": "Snelle acties",
+            "addServer": "Server toevoegen",
+            "addBot": "Bot toevoegen",
+            "addTheme": "Thema toevoegen",
+            "viewProfile": "Profiel bekijken",
+            "pendingReview": "In afwachting van beoordeling",
+            "rejected": "Afgewezen",
+            "approved": "Goedgekeurd",
+            "readyToBump": "Klaar om te bumpen",
+            "bumpNow": "Bump nu",
+            "totalVotes": "Totaal aantal stemmen",
+            "totalServers": "Servers",
+            "totalBots": "Bots",
+            "totalThemes": "Thema's"
+        },
+        "analytics": {
+            "title": "Analyse"
+        }
+    }
+}
