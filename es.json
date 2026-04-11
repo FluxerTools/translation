@@ -128,7 +128,7 @@
         },
         "inviteBot": "Invitar Bot",
         "inviteWithAdmin": "Invitar con Admin",
-        "permissionsWarning": "Este bot requiere permisos de administrador, lo cual otorga acceso completo a tu servidor. Invítalo sólo si confías en el.",
+        "permissionsWarning": "Este bot solicita permisos de administrador, lo que le otorga acceso total a tu servidor. Solo invita a bots en los que confíes.",
         "sensitivePermissions": "{count} permiso(s) sensible(s)",
         "empty": {
             "title": "No se encontraron bots",
@@ -142,8 +142,8 @@
         "pageDescription": "Descubre y aplica temas personalizados para tu cliente de Fluxer",
         "sort": {
             "popular": "Popular",
-            "new": "Más Recientes",
-            "downloads": "Más Descargados"
+            "new": "Agregado Recientemente",
+            "downloads": "Descargas"
         },
         "tags": {
             "all": "Todos",
@@ -204,7 +204,7 @@
         "bumpedAgo": "Subido {time}"
     },
     "add": {
-        "pageTitle": "Agregar un Ítem",
+        "pageTitle": "Agregar un Listado",
         "pageDescription": "Lista tu servidor, bot, o tema de Fluxer en FluxerList",
         "tabs": {
             "server": "Servidor",
@@ -220,9 +220,9 @@
         "server": {
             "selectServer": "Selecciona un Servidor",
             "serverName": "Nombre del Servidor",
-            "inviteLink": "Link de Invitación",
-            "shortDescription": "Descripción Breve",
-            "longDescription": "Descripción Larga",
+            "inviteLink": "Enlace de Invitación",
+            "shortDescription": "Breve Descripción",
+            "longDescription": "Descripción Detallada",
             "category": "Categoría",
             "tags": "Tags",
             "language": "Idioma",
