@@ -299,7 +299,499 @@
             "totalThemes": "Thema's"
         },
         "analytics": {
-            "title": "Analyse"
+            "title": "Analyse",
+            "description": "",
+            "totalVotes": "",
+            "totalViews": "",
+            "totalInvites": "",
+            "totalMembers": "",
+            "topPerformers": "",
+            "serverVotes": "",
+            "botPerformance": "",
+            "categories": "",
+            "themes": "",
+            "views": "",
+            "invites": "",
+            "noData": ""
+        },
+        "servers": {
+            "title": "",
+            "empty": "",
+            "addFirst": "",
+            "status": {
+                "approved": "",
+                "pending": "",
+                "rejected": "",
+                "banned": ""
+            },
+            "bump": "",
+            "bumpCooldown": "",
+            "edit": "",
+            "delete": "",
+            "deleteConfirm": "",
+            "rejectionReason": ""
+        },
+        "bots": {
+            "title": "",
+            "empty": "",
+            "addFirst": "",
+            "status": {
+                "approved": "",
+                "pending": "",
+                "rejected": "",
+                "banned": ""
+            },
+            "edit": "",
+            "delete": "",
+            "deleteConfirm": "",
+            "rejectionReason": ""
+        },
+        "themes": {
+            "title": "",
+            "empty": "",
+            "addFirst": "",
+            "status": {
+                "approved": "",
+                "pending": "",
+                "rejected": ""
+            },
+            "edit": "",
+            "delete": "",
+            "deleteConfirm": ""
+        },
+        "appearance": {
+            "title": "",
+            "theme": "",
+            "accentColor": "",
+            "fluxerThemes": "",
+            "importTheme": "",
+            "resetTheme": "",
+            "lightMode": "",
+            "darkMode": ""
+        },
+        "developer": {
+            "title": "",
+            "apiKeys": "",
+            "createKey": "",
+            "keyName": "",
+            "keyNamePlaceholder": "",
+            "created": "",
+            "lastUsed": "",
+            "never": "",
+            "deleteKey": "",
+            "deleteKeyConfirm": "",
+            "newKeyBanner": "",
+            "copyKey": "",
+            "copied": "",
+            "noKeys": "",
+            "limitReached": "",
+            "docsLink": "",
+            "comingSoon": "",
+            "comingSoonDescription": ""
+        },
+        "profile": {
+            "title": "",
+            "displayName": "",
+            "useDisplayName": "",
+            "bio": "",
+            "bioPlaceholder": "",
+            "bioLimit": "",
+            "website": "",
+            "twitter": "",
+            "github": "",
+            "youtube": "",
+            "addSocialLink": "",
+            "removeSocialLink": "",
+            "saveChanges": "",
+            "saved": "",
+            "socialLinks": "",
+            "selectPlatform": ""
+        }
+    },
+    "profile": {
+        "joinedDate": "",
+        "totalVotes": "",
+        "servers": "",
+        "bots": "",
+        "themes": "",
+        "noServers": "",
+        "noBots": "",
+        "noThemes": "",
+        "loginRequired": "",
+        "userNotFound": "",
+        "badges": {
+            "partner": "",
+            "verified": "",
+            "staff": "",
+            "earlyAdopter": "",
+            "bugHunter": "",
+            "developer": ""
+        }
+    },
+    "serverDetail": {
+        "joinServer": "",
+        "voteServer": "",
+        "unvoteServer": "",
+        "bumpServer": "",
+        "bumpCooldown": "",
+        "memberCount": "",
+        "onlineCount": "",
+        "voteCount": "",
+        "about": "",
+        "tags": "",
+        "owner": "",
+        "addedOn": "",
+        "report": "",
+        "share": "",
+        "loginToVote": "",
+        "loginToBump": "",
+        "verified": "",
+        "official": ""
+    },
+    "botDetail": {
+        "inviteBot": "",
+        "inviteWithAdmin": "",
+        "voteBot": "",
+        "unvoteBot": "",
+        "about": "",
+        "commands": "",
+        "tags": "",
+        "prefix": "",
+        "serverCount": "",
+        "owner": "",
+        "addedOn": "",
+        "views": "",
+        "invites": "",
+        "report": "",
+        "permissions": "",
+        "adminWarning": "",
+        "sensitivePermissions": "",
+        "loginToVote": "",
+        "verified": "",
+        "partner": ""
+    },
+    "themeDetail": {
+        "applyTheme": "",
+        "downloadTheme": "",
+        "voteTheme": "",
+        "unvoteTheme": "",
+        "about": "",
+        "tags": "",
+        "author": "",
+        "downloads": "",
+        "addedOn": "",
+        "report": "",
+        "preview": "",
+        "loginToVote": "",
+        "official": ""
+    },
+    "faq": {
+        "pageTitle": "",
+        "pageDescription": "",
+        "helpCenter": "",
+        "guidesSection": "",
+        "faqSection": "",
+        "questionsCount": "",
+        "stillHaveQuestions": "",
+        "stillHaveQuestionsDescription": "",
+        "guides": {
+            "botSubmission": {
+                "title": "",
+                "description": "",
+                "badge": ""
+            },
+            "markdownReference": {
+                "title": "",
+                "description": "",
+                "badge": ""
+            }
+        },
+        "sections": {
+            "browsingAndSorting": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": "",
+                "q4": "",
+                "a4": "",
+                "q5": "",
+                "a5": ""
+            },
+            "addingAndManaging": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": "",
+                "q4": "",
+                "a4": "",
+                "q5": "",
+                "a5": ""
+            },
+            "bots": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": "",
+                "q4": "",
+                "a4": "",
+                "q5": "",
+                "a5": ""
+            },
+            "bumpingAndVotes": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": ""
+            },
+            "accountAndPrivacy": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": ""
+            },
+            "support": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": ""
+            }
+        }
+    },
+    "report": {
+        "reasons": {
+            "scam": "",
+            "spam": "",
+            "misinformation": "",
+            "hateSpeech": "",
+            "nsfw": "",
+            "other": ""
+        },
+        "title": "",
+        "reason": "",
+        "details": "",
+        "detailsPlaceholder": "",
+        "submit": "",
+        "success": ""
+    },
+    "about": {
+        "pageTitle": "",
+        "heading": "",
+        "description": "",
+        "stats": {
+            "serversListed": "",
+            "membersAcrossAll": "",
+            "votesCast": ""
+        },
+        "whatWeStandFor": "",
+        "values": {
+            "discoveryThatWorks": {
+                "title": "",
+                "description": ""
+            },
+            "communityFirst": {
+                "title": "",
+                "description": ""
+            },
+            "transparent": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "builtForCommunity": "",
+        "builtForCommunityDescription": "",
+        "browseServers": "",
+        "addYourServer": ""
+    },
+    "premium": {
+        "pageTitle": "",
+        "pageDescription": "",
+        "comingSoon": "",
+        "features": {
+            "featuredPlacement": {
+                "title": "",
+                "description": ""
+            },
+            "customBanner": {
+                "title": "",
+                "description": ""
+            },
+            "advancedAnalytics": {
+                "title": "",
+                "description": ""
+            },
+            "boostVisibility": {
+                "title": "",
+                "description": ""
+            },
+            "premiumBadge": {
+                "title": "",
+                "description": ""
+            },
+            "prioritySupport": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "plans": {
+            "starter": {
+                "name": "",
+                "features": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "pro": {
+                "name": "",
+                "popular": "",
+                "features": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "enterprise": {
+                "name": "",
+                "features": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        },
+        "perMonth": "",
+        "getStarted": "",
+        "contactUs": ""
+    },
+    "errors": {
+        "notFound": {
+            "title": "",
+            "code": "",
+            "description": "",
+            "backToHome": "",
+            "browseServers": ""
+        },
+        "auth": {
+            "OAuthSignin": {
+                "title": "",
+                "description": ""
+            },
+            "OAuthCallback": {
+                "title": "",
+                "description": ""
+            },
+            "OAuthCreateAccount": {
+                "title": "",
+                "description": ""
+            },
+            "EmailCreateAccount": {
+                "title": "",
+                "description": ""
+            },
+            "Callback": {
+                "title": "",
+                "description": ""
+            },
+            "OAuthAccountNotLinked": {
+                "title": "",
+                "description": ""
+            },
+            "EmailSignin": {
+                "title": "",
+                "description": ""
+            },
+            "CredentialsSignin": {
+                "title": "",
+                "description": ""
+            },
+            "SessionRequired": {
+                "title": "",
+                "description": ""
+            },
+            "AccessDenied": {
+                "title": "",
+                "description": ""
+            },
+            "Verification": {
+                "title": "",
+                "description": ""
+            },
+            "Default": {
+                "title": "",
+                "description": ""
+            },
+            "showDetails": "",
+            "hideDetails": ""
+        },
+        "global": {
+            "title": "",
+            "description": "",
+            "tryAgain": ""
+        }
+    },
+    "banned": {
+        "pageTitle": "",
+        "heading": "",
+        "description": "",
+        "reason": "",
+        "appealText": ""
+    },
+    "maintenance": {
+        "pageTitle": "",
+        "heading": "",
+        "description": "",
+        "inProgress": ""
+    },
+    "components": {
+        "searchBar": {
+            "placeholder": ""
+        },
+        "bumpButton": {
+            "bump": "",
+            "cooldown": "",
+            "loginRequired": ""
+        },
+        "voteButton": {
+            "vote": "",
+            "unvote": "",
+            "loginRequired": ""
+        },
+        "categoryFilter": {
+            "all": "",
+            "gaming": "",
+            "music": "",
+            "anime": "",
+            "technology": "",
+            "education": "",
+            "art": "",
+            "sports": "",
+            "community": "",
+            "roleplay": "",
+            "nsfw": ""
         }
     }
 }
