@@ -18,7 +18,7 @@
   "footer.tagline": "The best place to discover and grow Fluxer communities. Find your people, build your world.",
   "footer.notAffiliated": "Not officially affiliated with Fluxer Platform AB.",
   "footer.allRightsReserved": "All rights reserved.",
-  "footer.version": "Version Beta 0.2.0 - Build Number 11",
+  "footer.version": "Version {version} - Build Number {buildNumber}",
   "footer.sections.platform": "Platform",
   "footer.sections.resources": "Resources",
   "footer.sections.legal": "Legal",
