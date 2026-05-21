@@ -285,7 +285,9 @@
             "totalVotes": "Votos Totales",
             "totalServers": "Servidores",
             "totalBots": "Bots",
-            "totalThemes": "Temas"
+            "totalThemes": "Temas",
+            "addBot": "",
+            "addTheme": ""
         },
         "analytics": {
             "title": "Analítica",
