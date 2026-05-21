@@ -99,5 +99,21 @@
             "found_few": "{count } коммьюнити найдено",
             "found_many": "{count } коммьюнити найдено"
         }
+    },
+    "themes": {
+        "sort": {
+            "new": ""
+        }
+    },
+    "add": {
+        "bot": {
+            "limitReached": ""
+        }
+    },
+    "dashboard": {
+        "overview": {
+            "addBot": "",
+            "addTheme": ""
+        }
     }
 }
