@@ -245,7 +245,8 @@
             "submit": "Enviar a Revisión",
             "submitSuccess": "Tu bot ha sido enviado a revisión!",
             "limitReached": "Has llegado al límite de {limit} bots. Borra uno para añadir otro.",
-            "guide": "Lee la Guía de envío de Bots antes de enviar."
+            "guide": "Lee la Guía de envío de Bots antes de enviar.",
+            "tags": ""
         },
         "theme": {
             "themeName": "Nombre del Tema",
@@ -258,11 +259,14 @@
             "importCss": "Importar desde CSS",
             "importCssDescription": "Pega el CSS de tu tema de Fluxer para extraer colores automáticamente.",
             "downloadUrl": "URL de Descarga",
-            "previewUrl": "URL de Vista Previa"
+            "previewUrl": "URL de Vista Previa",
+            "tags": ""
         },
         "validation": {
             "required": "Este campo es requerido.",
-            "descriptionTooLong": "La descripción debe ser de {max} caracteres o menos."
+            "descriptionTooLong": "La descripción debe ser de {max} caracteres o menos.",
+            "invalidUrl": "",
+            "tooManyTags": ""
         }
     },
     "dashboard": {
@@ -270,7 +274,10 @@
             "servers": "Servidores",
             "bots": "Bots",
             "themes": "Temas",
-            "appearance": "Apariencia"
+            "appearance": "Apariencia",
+            "overview": "",
+            "analytics": "",
+            "developer": ""
         },
         "overview": {
             "welcome": "Hola otra vez, {name}",
@@ -287,7 +294,9 @@
             "totalBots": "Bots",
             "totalThemes": "Temas",
             "addBot": "",
-            "addTheme": ""
+            "addTheme": "",
+            "readyToBump": "",
+            "bumpNow": ""
         },
         "analytics": {
             "title": "Analítica",
@@ -319,7 +328,8 @@
             "edit": "Editar Servidor",
             "delete": "Borrar Servidor",
             "deleteConfirm": "En verdad quieres borrar este servidor? Esta acción es irreversible.",
-            "rejectionReason": "Razón de rechazo"
+            "rejectionReason": "Razón de rechazo",
+            "bump": ""
         },
         "bots": {
             "title": "Mis Bots",
@@ -333,7 +343,8 @@
             "edit": "Editar Bot",
             "delete": "Borrar Bot",
             "deleteConfirm": "En verdad quieres borrar este bot? Esta acción es irreversible.",
-            "rejectionReason": "Razón de rechazo"
+            "rejectionReason": "Razón de rechazo",
+            "addFirst": ""
         },
         "themes": {
             "title": "Mis Temas",
@@ -345,7 +356,8 @@
             },
             "edit": "Editar Tema",
             "delete": "Borrar Tema",
-            "deleteConfirm": "En verdad quieres borrar este tema? Esta acción es irreversible."
+            "deleteConfirm": "En verdad quieres borrar este tema? Esta acción es irreversible.",
+            "addFirst": ""
         },
         "appearance": {
             "title": "Apariencia",
@@ -373,7 +385,9 @@
             "limitReached": "Has llegado al número máximo de claves de API.",
             "docsLink": "Ver documentación de la API",
             "comingSoon": "Funciones de desarrollador próximamente",
-            "comingSoonDescription": "La plataforma de desarrolladores está disponible a desarrolladores aprovados. Solicita el acceso para comenzar."
+            "comingSoonDescription": "La plataforma de desarrolladores está disponible a desarrolladores aprovados. Solicita el acceso para comenzar.",
+            "keyNamePlaceholder": "",
+            "created": ""
         },
         "profile": {
             "title": "Perfil",
@@ -389,8 +403,11 @@
             "saveChanges": "Guardar Cambios",
             "saved": "Guardados!",
             "socialLinks": "Links Sociales",
-            "selectPlatform": "Selecciona una plataforma a agregar"
-        }
+            "selectPlatform": "Selecciona una plataforma a agregar",
+            "displayName": "",
+            "useDisplayName": ""
+        },
+        "pageTitle": ""
     },
     "profile": {
         "totalVotes": "Votos Totales",
@@ -407,8 +424,10 @@
             "verified": "Verificado",
             "staff": "Personal",
             "bugHunter": "Cazador de bugs",
-            "developer": "Desarrollador"
-        }
+            "developer": "Desarrollador",
+            "earlyAdopter": ""
+        },
+        "joinedDate": ""
     },
     "serverDetail": {
         "joinServer": "Unirse al Servidor",
@@ -424,6 +443,356 @@
         "report": "Reportar",
         "share": "Compartir",
         "loginToVote": "Iniciar sesión para votar",
-        "verified": "Servidor verificado"
+        "verified": "Servidor verificado",
+        "tags": "",
+        "owner": "",
+        "loginToBump": "",
+        "official": ""
+    },
+    "botDetail": {
+        "inviteBot": "",
+        "inviteWithAdmin": "",
+        "voteBot": "",
+        "unvoteBot": "",
+        "about": "",
+        "commands": "",
+        "tags": "",
+        "prefix": "",
+        "serverCount": "",
+        "owner": "",
+        "addedOn": "",
+        "views": "",
+        "invites": "",
+        "report": "",
+        "permissions": "",
+        "adminWarning": "",
+        "sensitivePermissions": "",
+        "loginToVote": "",
+        "verified": "",
+        "partner": ""
+    },
+    "themeDetail": {
+        "applyTheme": "",
+        "downloadTheme": "",
+        "voteTheme": "",
+        "unvoteTheme": "",
+        "about": "",
+        "tags": "",
+        "author": "",
+        "downloads": "",
+        "addedOn": "",
+        "report": "",
+        "preview": "",
+        "loginToVote": "",
+        "official": ""
+    },
+    "faq": {
+        "pageTitle": "",
+        "pageDescription": "",
+        "helpCenter": "",
+        "guidesSection": "",
+        "faqSection": "",
+        "questionsCount": "",
+        "stillHaveQuestions": "",
+        "stillHaveQuestionsDescription": "",
+        "guides": {
+            "botSubmission": {
+                "title": "",
+                "description": "",
+                "badge": ""
+            },
+            "markdownReference": {
+                "title": "",
+                "description": "",
+                "badge": ""
+            }
+        },
+        "sections": {
+            "browsingAndSorting": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": "",
+                "q4": "",
+                "a4": "",
+                "q5": "",
+                "a5": ""
+            },
+            "addingAndManaging": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": "",
+                "q4": "",
+                "a4": "",
+                "q5": "",
+                "a5": ""
+            },
+            "bots": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": "",
+                "q4": "",
+                "a4": "",
+                "q5": "",
+                "a5": ""
+            },
+            "bumpingAndVotes": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": ""
+            },
+            "accountAndPrivacy": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": "",
+                "q3": "",
+                "a3": ""
+            },
+            "support": {
+                "title": "",
+                "q1": "",
+                "a1": "",
+                "q2": "",
+                "a2": ""
+            }
+        }
+    },
+    "about": {
+        "pageTitle": "",
+        "heading": "",
+        "description": "",
+        "stats": {
+            "serversListed": "",
+            "membersAcrossAll": "",
+            "votesCast": ""
+        },
+        "whatWeStandFor": "",
+        "values": {
+            "discoveryThatWorks": {
+                "title": "",
+                "description": ""
+            },
+            "communityFirst": {
+                "title": "",
+                "description": ""
+            },
+            "transparent": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "builtForCommunity": "",
+        "builtForCommunityDescription": "",
+        "browseServers": "",
+        "addYourServer": ""
+    },
+    "premium": {
+        "pageTitle": "",
+        "pageDescription": "",
+        "comingSoon": "",
+        "features": {
+            "featuredPlacement": {
+                "title": "",
+                "description": ""
+            },
+            "customBanner": {
+                "title": "",
+                "description": ""
+            },
+            "advancedAnalytics": {
+                "title": "",
+                "description": ""
+            },
+            "boostVisibility": {
+                "title": "",
+                "description": ""
+            },
+            "premiumBadge": {
+                "title": "",
+                "description": ""
+            },
+            "prioritySupport": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "plans": {
+            "starter": {
+                "name": "",
+                "features": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "pro": {
+                "name": "",
+                "popular": "",
+                "features": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "enterprise": {
+                "name": "",
+                "features": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        },
+        "perMonth": "",
+        "getStarted": "",
+        "contactUs": ""
+    },
+    "errors": {
+        "notFound": {
+            "title": "",
+            "code": "",
+            "description": "",
+            "backToHome": "",
+            "browseServers": ""
+        },
+        "auth": {
+            "OAuthSignin": {
+                "title": "",
+                "description": ""
+            },
+            "OAuthCallback": {
+                "title": "",
+                "description": ""
+            },
+            "OAuthCreateAccount": {
+                "title": "",
+                "description": ""
+            },
+            "EmailCreateAccount": {
+                "title": "",
+                "description": ""
+            },
+            "Callback": {
+                "title": "",
+                "description": ""
+            },
+            "OAuthAccountNotLinked": {
+                "title": "",
+                "description": ""
+            },
+            "EmailSignin": {
+                "title": "",
+                "description": ""
+            },
+            "CredentialsSignin": {
+                "title": "",
+                "description": ""
+            },
+            "SessionRequired": {
+                "title": "",
+                "description": ""
+            },
+            "AccessDenied": {
+                "title": "",
+                "description": ""
+            },
+            "Verification": {
+                "title": "",
+                "description": ""
+            },
+            "Default": {
+                "title": "",
+                "description": ""
+            },
+            "showDetails": "",
+            "hideDetails": ""
+        },
+        "global": {
+            "title": "",
+            "description": "",
+            "tryAgain": ""
+        }
+    },
+    "banned": {
+        "pageTitle": "",
+        "heading": "",
+        "description": "",
+        "reason": "",
+        "appealText": ""
+    },
+    "maintenance": {
+        "pageTitle": "",
+        "heading": "",
+        "description": "",
+        "inProgress": ""
+    },
+    "report": {
+        "title": "",
+        "reason": "",
+        "details": "",
+        "detailsPlaceholder": "",
+        "submit": "",
+        "success": "",
+        "reasons": {
+            "spam": "",
+            "misinformation": "",
+            "hateSpeech": "",
+            "nsfw": "",
+            "scam": "",
+            "other": ""
+        }
+    },
+    "components": {
+        "searchBar": {
+            "placeholder": ""
+        },
+        "bumpButton": {
+            "bump": "",
+            "cooldown": "",
+            "loginRequired": ""
+        },
+        "voteButton": {
+            "vote": "",
+            "unvote": "",
+            "loginRequired": ""
+        },
+        "categoryFilter": {
+            "all": "",
+            "gaming": "",
+            "music": "",
+            "anime": "",
+            "technology": "",
+            "education": "",
+            "art": "",
+            "sports": "",
+            "community": "",
+            "roleplay": "",
+            "nsfw": ""
+        }
     }
 }
