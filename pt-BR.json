@@ -1,1 +1,18 @@
-{}
+{
+    "themes": {
+        "sort": {
+            "new": ""
+        }
+    },
+    "add": {
+        "bot": {
+            "limitReached": ""
+        }
+    },
+    "dashboard": {
+        "overview": {
+            "addBot": "",
+            "addTheme": ""
+        }
+    }
+}
