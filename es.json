@@ -493,7 +493,7 @@
         "guidesSection": "",
         "faqSection": "",
         "questionsCount": "",
-        "stillHaveQuestions": "",
+        "stillHaveQuestions": "¿Aún tienes preguntas?",
         "stillHaveQuestionsDescription": "",
         "guides": {
             "botSubmission": {
@@ -577,11 +577,11 @@
     "about": {
         "pageTitle": "",
         "heading": "",
-        "description": "",
+        "description": "FluxerList es una plataforma de listado de servidores creada para la comunidad de Fluxer. Hacemos que sea fácil para las personas descubrir servidores que les encanten, y para los dueños de servidores, llegar a los miembros que los están buscando.",
         "stats": {
-            "serversListed": "",
+            "serversListed": "Servidores listados",
             "membersAcrossAll": "",
-            "votesCast": ""
+            "votesCast": "Votos emitidos"
         },
         "whatWeStandFor": "",
         "values": {
@@ -594,8 +594,8 @@
                 "description": ""
             },
             "transparent": {
-                "title": "",
-                "description": ""
+                "title": "Transparencia",
+                "description": "Sin manipulaciones extrañas en la clasificación. Compartimos nuestra hoja de ruta abiertamente y recibimos con gusto tus comentarios en cada paso."
             }
         },
         "builtForCommunity": "",
@@ -674,11 +674,11 @@
     },
     "errors": {
         "notFound": {
-            "title": "",
+            "title": "Pagina no encontrada",
             "code": "",
-            "description": "",
+            "description": "No se pudo encontrar la página que estabas buscando en FluxerList. Es posible que haya sido movida o eliminada.",
             "backToHome": "",
-            "browseServers": ""
+            "browseServers": "Explorar Servidores"
         },
         "auth": {
             "OAuthSignin": {
@@ -1060,5 +1060,55 @@
     "faq.q.howDelete": "¿Como elimino mi servidor listado?",
     "faq.a.howDelete": "Ve a tu panel de control, encuentra tu servidor y selecciona \"Eliminar\". Se te pedirá una confirmación antes de eliminarlo de forma permanente.",
     "faq.q.howSubmitBot": "¿Como registro un Bot?",
-    "faq.a.howSubmitBot": "Inicie sesión con Fluxer, luego diríjase a Registrar un Bot. Lea la guía de como registrar un Bot primero: Allí se explica todo lo que los revisores evalúan."
+    "faq.a.howSubmitBot": "Inicie sesión con Fluxer, luego diríjase a Registrar un Bot. Lea la guía de como registrar un Bot primero: Allí se explica todo lo que los revisores evalúan.",
+    "faq.q.howDoCategories": "¿Como funcionan las categorías?",
+    "faq.a.howDoCategories": "Las categorías filtran los servidores por sus etiquetas. Cuando seleccionas una categoría como Gaming o Música, solo los servidores con esa etiqueta serán mostrados.",
+    "faq.q.canISearch": "¿Puedo buscar servidores?",
+    "faq.a.canISearch": "Si: La barra de búsqueda coincide con los nombres de servidores, descripciones y etiquetas de forma simultanea.",
+    "faq.q.howToVote": "¿Como puedo votar por un servidor?",
+    "faq.a.howToVote": "Abre la pagina de cualquier servidor y dale clic al botón de votar. Debes haber iniciado sesión con tu cuenta de Fluxer para poder votar.",
+    "faq.q.howOftenVote": "¿Con que frecuencia puedo votar?",
+    "faq.a.howOftenVote": "Puedes votar una vez por servidor. Si cambias de parecer, puedes eliminar tu voto en cualquier momento.",
+    "faq.q.howLogin": "¿Como inicio sesión?",
+    "faq.a.howLogin": "FluxerList utiliza el sistema OAuth de Fluxer: haz clic en \"Iniciar sesión\" y se te redirigirá a Fluxer para autorizar el acceso. No necesitas crear una cuenta aparte.",
+    "faq.q.emailCollect": "¿FluxerList recopila mi correo electrónico?",
+    "faq.a.emailCollect": "No. FluxerList solicita únicamente tu nombre de usuario, nombre para mostrar y avatar de Fluxer. No solicitamos ni almacenamos tu dirección de correo electrónico.",
+    "faq.q.affiliated": "¿FluxerList esta afiliado oficialmente con Fluxer?",
+    "faq.a.affiliated": "No. FluxerList es un proyecto independiente gestionado por la comunidad y no está afiliado oficialmente ni respaldado por Fluxer Platform AB.",
+    "faq.q.getHelp": "¿Donde puedo recibir ayuda o reportar un problema?",
+    "faq.a.getHelp": "Únete al servidor de la comunidad de FluxerList: Nuestro equipo y los miembros de la comunidad están listos para ayudarte.",
+    "faq.q.reportServer": "¿Como reporto un servidor que infringió las reglas?",
+    "faq.a.reportServer": "Por favor reporte el caso en nuestro servidor y un moderador lo revisara.",
+    "faq.stillHaveQuestionsDesc": "Nuestro equipo y comunidad están en el servidor de soporte y con gusto te ayudaran.",
+    "faq.joinCommunity": "Únete a nuestra comunidad",
+    "about.title": "Sobre FluxerList",
+    "about.subtitle": "Conectando comunidades entre sí",
+    "about.stats.membersAcross": "Miembros en todos los servidores",
+    "about.values.title": "Nuestros valores",
+    "about.values.discovery.title": "Descubrimiento eficiente",
+    "about.values.discovery.description": "Cada servidor tiene una oportunidad justa de ser descubierto. Nuestra clasificación se basa en la actividad y la interacción, no en factores arbitrarios.",
+    "about.values.community.title": "La comunidad primero",
+    "about.values.community.description": "FluxerList existe gracias a la comunidad de Fluxer. Cada función esta construida en base a lo que la comunidad realmente necesita.",
+    "about.builtForCommunity.title": "Construido por la comunidad",
+    "about.builtForCommunity.description": "FluxerList fue creado por usuarios de Fluxer, para usuarios de Fluxer. Si tienes comentarios, ideas para nuevas funciones, o solo quieres involucrarte, nos encantaría escucharte.",
+    "about.cta.browseServers": "Explora servidores",
+    "about.cta.addServer": "Añade tu servidor",
+    "errors.notFound.lostInVoid": "¿Te perdiste en el vació?",
+    "errors.notFound.lostDesc": "La pagina que buscas se ha desvanecido en el éter digital. Vamos a ponerte de vuelta en camino.",
+    "errors.notFound.backHome": "Volver al Inicio",
+    "errors.globalError.title": "Algo salio mal.",
+    "errors.globalError.tryAgain": "Intenta de nuevo",
+    "auth.errors.oauthSignin.title": "Error al iniciar sesión",
+    "auth.errors.oauthSignin.description": "No se pudo iniciar el flujo de inicio de sesión con OAuth. Por favor, inténtalo de nuevo.",
+    "auth.errors.oauthCallback.title": "Error en la redirección de OAuth",
+    "auth.errors.oauthCallback.description": "Algo ha salido mal mientras se completaba el inicio de sesión. Por favor intente de nuevo.",
+    "auth.errors.oauthCreateAccount.title": "Error al crear la cuenta",
+    "auth.errors.oauthCreateAccount.description": "No pudimos crear tu cuenta. Es posible que ya tengas una cuenta con un proveedor diferente.",
+    "auth.errors.emailCreateAccount.title": "Error al crear la cuenta",
+    "auth.errors.emailCreateAccount.description": "No pudimos crear tu cuenta con esta dirección de correo electrónico.",
+    "auth.errors.callback.title": "Error de redirección",
+    "auth.errors.callback.description": "Ocurrió un error durante la auntenticación. Por favor, intenta de nuevo.",
+    "auth.errors.oauthAccountNotLinked.title": "Cuenta no vinculada",
+    "auth.errors.oauthAccountNotLinked.description": "Este correo electrónico ya fue asociado con otro método de inicio de sesión. Por favor, inicie sesión con el método original.",
+    "auth.errors.emailSignin.title": "Error al iniciar sesión con correo"
 }
