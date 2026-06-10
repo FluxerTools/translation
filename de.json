@@ -793,5 +793,12 @@
             "roleplay": "Rollenspiel",
             "nsfw": "NSFW"
         }
-    }
+    },
+    "nav.servers": "Server",
+    "nav.themes": "Themes",
+    "nav.bots": "Bots",
+    "nav.leaderboard": "Rangliste",
+    "nav.developer": "Entwickler",
+    "nav.profile": "Profil",
+    "nav.dashboard": "Dashboard"
 }
