@@ -1,1 +1,15 @@
-{}
+{
+    "nav.bots": "Bots",
+    "nav.themes": "Thèmes",
+    "nav.servers": "Serveurs",
+    "nav.developer": "Développeur",
+    "nav.addListing": "Ajouter une liste",
+    "nav.profile": "Profil",
+    "nav.dashboard": "Tableau de bord",
+    "nav.adminPanel": "Panneau administrateur",
+    "nav.logout": "fermer la session (finish the session) \nDéconnexion (disconnection)",
+    "nav.login": "Connectez vous avec Fluxer",
+    "nav.lightMode": "Mode lumière",
+    "nav.darkMode": "mode sombre or mode nuit",
+    "nav.changeType": "Changement de type"
+}
