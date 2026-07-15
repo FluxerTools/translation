@@ -134,14 +134,14 @@
             "title": "Keine Bots gefunden",
             "description": "Versuchen Sie, Ihre Filter anzupassen oder schauen Sie später nochmal vorbei."
         },
-        "limitReached": "Sie haben das Limit von {limit} Bots erreicht."
+        "limitReached": "Limit erreicht ({limit})"
     },
     "themes": {
         "pageTitle": "Durchsuche Themes",
         "pageDescription": "Entdecken und wenden Sie benutzerdefinierte Themes für Ihren Fluxer-Client an",
         "sort": {
             "popular": "Beliebt",
-            "new": "Kürzlich hinzugefügt",
+            "new": "Neu",
             "downloads": "Downloads"
         },
         "tags": {
@@ -163,7 +163,7 @@
         "previewTheme": "Vorschau",
         "by": "Von {author}",
         "downloads": "{count} Download(s)",
-        "limitReached": "Sie haben die maximale Anzahl von {limit} Themes erreicht.",
+        "limitReached": "Limit erreicht ({count}/{limit})",
         "empty": {
             "title": "Keine Themes gefunden",
             "description": "Versuchen Sie, Ihre Filter anzupassen oder schauen Sie später nochmal vorbei."
@@ -380,7 +380,7 @@
             "never": "Nie",
             "deleteKey": "Schlüssel löschen",
             "deleteKeyConfirm": "Sind Sie sicher, dass Sie diesen API-Schlüssel löschen möchten? Alle Anwendungen, die ihn verwenden, werden dann nicht mehr funktionieren.",
-            "newKeyBanner": "Ihr neuer API-Schlüssel wurde erstellt. Kopieren Sie ihn jetzt — er wird nicht erneut angezeigt.",
+            "newKeyBanner": "Neuer API-Schlüssel erstellt – kopieren Sie ihn jetzt, er wird nicht erneut angezeigt.",
             "copyKey": "Kopie",
             "copied": "Kopiert!",
             "noKeys": "Sie besitzen noch keine API-Schlüssel.",
@@ -502,7 +502,7 @@
             },
             "markdownReference": {
                 "title": "Markdown-Referenz",
-                "description": "Alle unterstützten Formatierungssyntaxen für Server-, Bot- und Themenbeschreibungen — Überschriften, Listen, Codeblöcke, Highlights und mehr.",
+                "description": "Alle unterstützten Formatierungssyntaxen für Server-, Bot- und Themesbeschreibungen - Überschriften, Listen, Codeblöcke, Highlights und mehr.",
                 "badge": "Formatieren"
             }
         },
@@ -861,7 +861,7 @@
     "home.featuredServers.noServers": "Keine Server in dieser Kategorie gefunden.",
     "home.partners.title": "FluxerList Partner",
     "home.partners.subtitle": "Communities, die offiziell mit FluxerList partnerschaftlich verbunden sind.",
-    "home.popularThemes.title": "Beliebte Themen",
+    "home.popularThemes.title": "Beliebte Themes",
     "home.popularThemes.subtitle": "Community erstellte Themes zur Personalisierung von Fluxer",
     "home.cta.title": "Deine Community startet hier",
     "home.cta.description": "Liste deinen Server auf, veröffentliche einen Bot oder teile ein Theme - alles, was du brauchst, um auf Fluxer zu erstellen und zu wachsen, alles an einem Ort.",
@@ -881,5 +881,34 @@
     "servers.results.forSearch": "für \"{search}\"",
     "servers.results.pagination": "Seite {current} von {total}",
     "servers.results.noResults": "Keine Ergebnisse",
-    "servers.results.noServers": "Keine Server gefunden"
+    "servers.results.noServers": "Keine Server gefunden",
+    "servers.results.noResultsSearch": "Keine Ergebnisse für \"{search}\". Versuche einen anderen Suchbegriff.",
+    "servers.results.noResultsFilters": "Keine Server entsprechen Ihren Filtern. Versuchen Sie, Ihre Suche anzupassen.",
+    "bots.title": "Durchsuche Bots",
+    "bots.subtitle": "Entdecken Sie Bots, die für die Fluxer-Community entwickelt wurden",
+    "bots.guide": "Anleitung",
+    "bots.submitBot": "Bot einreichen",
+    "bots.search": "Suche Bots...",
+    "bots.sort.mostPopular": "Am beliebtesten",
+    "bots.sort.newest": "Neueste",
+    "bots.categories.all": "Alle",
+    "bots.categories.moderation": "Moderation",
+    "bots.categories.music": "Musik",
+    "bots.categories.fun": "Spaß",
+    "bots.categories.utility": "Dienste",
+    "bots.categories.economy": "Wirtschaft",
+    "bots.categories.games": "Spiele",
+    "bots.categories.social": "Sozial",
+    "bots.categories.anime": "Anime",
+    "bots.categories.other": "Andere",
+    "bots.byAuthor": "von {author}",
+    "bots.noBots": "Keine Bots gefunden",
+    "bots.noBotsHint": "Versuche ein anderen Suchbegriff oder Schlagwort.",
+    "themes.title": "Durchsuche Themes",
+    "themes.subtitle": "Community erstellte Themes zur Personalisierung deines Fluxer-Erlebnisses",
+    "themes.submitTheme": "Theme einreichen",
+    "themes.search": "Suche themes...",
+    "servers.sort.spotlighted": "Rampenlicht",
+    "themes.noThemes": "Keine Themes gefunden",
+    "flat.signals.leaves.description": "Das Verlassen von Mitgliedern zieht eine geringe Strafe nach sich - anhaltende Abwanderung deutet auf eine weniger gesunde Community hin."
 }
